@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+
+}
+
+.my-article-content {
+	background-color: silver;
+	width:100%;
+	margin:0px 0px 30px 0px;
+	padding:10px;
+}
+
+.my-article-content h2 {
+	margin-top:0px;
+}
+
+.main-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#bs-example-navbar-collapse-1 {
+
+}
+
+#nav-list {
+	background-color: Salmon;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+#nav-list li:hover {
+	background-color: Lime;
+}
+
+#nav-list li a {
+	color:black;
+	text-align:center;
+}
+
+#main-content {
+	margin-bottom:30px;
+}
+
+.my-btn {
+	font-size:20px;
+	padding:5px 7px 1px 7px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.my-article-content {
+		margin:0px auto;
+		margin-bottom:30px;
+		width:90%;
+	}
+}
